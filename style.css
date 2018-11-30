@@ -4,6 +4,7 @@ background: black;
 
 main{
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   width: 500px;
   margin: auto;
@@ -24,3 +25,14 @@ main{
   background: red;
 
 }
+
+.volume {
+  width: 400px;
+  background: white;
+  color: transparent;
+}
+
+input {
+  margin-top: 20px;
+}
+
