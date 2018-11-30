@@ -1,0 +1,26 @@
+body {
+background: black;
+}
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  margin: auto;
+}
+
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  margin: 5px;
+  background: pink;
+  font-weight: bold;
+}
+
+.playing {
+  background: red;
+
+}
